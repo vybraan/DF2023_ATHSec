@@ -1,4 +1,4 @@
-<h1 align="center">Ignite Call</h1>
+<h1 align="center">DF2023_ATHSec</h1>
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -117,50 +117,20 @@ npx prisma migrate Dev
 npm run dev
 ```
 <br>
-
-## 👨‍💻 Contributing
-
-<p> 
-  Pull Requests are welcome. For major changes, please open an issue to discuss what and which kind of changes you want to perform.<br>
-  Follow these steps to make your contribution.
-  
-  #### 1. Fork the repository
-  
-  #### 2. Create your feature branch 
- ```bash
- # To make it easier name this branch with your username or with the name of the feature you added
- $ git checkout -b MyFeature
- ```
-  
-  #### 3. Commit your changes
-  ```bash
-   $ git commit -m 'Adding my feature'
-  ```
-  
-  #### 4. Push to your feature branch
-  ```bash
-   $ git push origin MyFeature
-  ```
-  
-  #### 5. Open a Pull Request
-  
+ 
   <br>
   Let's work together. 😁
 <p/>
 
 <br>
 
-## 💻 Live Demo
-- You can see the application in live through [THIS LINK](https://ignite-calll.vercel.app/)
-
-<br>
 
 ## 📄 License
 This project is under MIT Lincese  [CLICK HERE](https://github.com/enoquetembe/ignite-call/blob/main/LICENSE) to read the file about the license.
 
 <br>
 
-Made with ❤  by [Enoque Tembe](https://github.com/enoquetembe)
+All credits to [Enoque Tembe](https://github.com/enoquetembe)
 
 
 
