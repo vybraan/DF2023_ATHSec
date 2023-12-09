@@ -9,14 +9,6 @@
 
 </p>
 
-
-<div align="center">
-
-  ![Cover](https://github.com/enoquetembe/ignite-call/assets/98264322/c0ab0f9d-7e69-4b39-971c-2ba7bbac1417)
-
-
-</div>
-
 </p>
 
 <br> 
