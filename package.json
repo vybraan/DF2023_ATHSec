@@ -1,0 +1,44 @@
+{
+  "name": "ignite-call",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "postinstall": "prisma generate",
+    "start": "next start",
+    "lint": "next lint",
+    "lnt": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@auth/core": "^0.12.0",
+    "@enoque-ui/react": "^2.0.1",
+    "@hookform/resolvers": "^3.2.0",
+    "@prisma/client": "^5.1.1",
+    "@tanstack/react-query": "^4.33.0",
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.17",
+    "@types/react-dom": "18.2.7",
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.9",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.12",
+    "googleapis": "^126.0.0",
+    "i": "^0.3.7",
+    "next": "13.4.12",
+    "next-auth": "^4.18.6",
+    "next-seo": "^6.1.0",
+    "nookies": "^2.5.2",
+    "phosphor-react": "^1.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.4",
+    "typescript": "5.1.6",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/cookie": "^0.5.1",
+    "prisma": "^5.2.0"
+  }
+}
