@@ -49,7 +49,7 @@ Open a terminal follow the steps bellow
 1. Clone the repository: 
 
 ``` bash 
- $ git clone https://github.com/enoquetembe/ignite-call.git
+ $ git clone https://github.com/vybraan/DF2023_ATHSec.git
 ```
 
 - Got to the project directory 
@@ -117,8 +117,8 @@ npm run dev
 <br>
 
 
-## 📄 License
-This project is under MIT Lincese  [CLICK HERE](https://github.com/enoquetembe/ignite-call/blob/main/LICENSE) to read the file about the license.
+## 📄 Licence
+This project is under MIT Licence  [CLICK HERE](https://github.com/enoquetembe/ignite-call/blob/main/LICENSE) to read the file about the icence.
 
 <br>
 
