@@ -1,120 +1,25 @@
 <h1 align="center">DF2023_ATHSec</h1>
 
-<p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-contributing"> Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-live-demo">Live Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>  
+The Ignite Call project is a comprehensive appointment booking system with seamless Google Calendar integration. Designed to enhance user experience, this application allows users to register effortlessly through their Google accounts, specifying their availability for appointments throughout the week.
 
-</p>
+All credits to [Enoque Tembe](https://github.com/enoquetembe)
 
-</p>
+### Key Features:
 
-<br> 
+* Google Calendar Integration: All appointments seamlessly sync with the user's Google Calendar for easy tracking.
+* User-Friendly Registration: Users can easily sign up using their Google accounts, streamlining the onboarding process.
+* Flexible Scheduling: Individuals can indicate their available days and times, providing flexibility for appointment scheduling.
 
+## Technical Details:
 
+* Tech Stack: Developed entirely using Next.js, the project leverages the framework's capabilities for unified front-end and back-end integration.
+* Database Management: Prisma.io facilitates communication between the application and a MySQL database housed in a Docker container.
+* Deployment and Hosting: Vercel serves as the hosting platform for the application, ensuring seamless deployment. The production database is managed through the PlanetScale platform service.
 
-## 🚀 Technologies
+## Presentation Focus:
+In the workshop, we uses Ignite Call as a case study to showcase the implementation of security practices, with a primary focus on Static Application Security Testing (SAST). Tools like Snyk will be employed to scan dependencies, ensuring the identification and mitigation of vulnerabilities early in the development process. Additionally, we'll utilize CodeSee to visually understand the application's codebase, emphasizing how these practices contribute to a more secure DevOps workflow.
 
-This project was developed with the following technologies:
-
-- <span>[**Next.js**](https://nextjs.org/docs)</span>
-- <span>[**Stitches**](https://stitches.dev/)</span>
-- <span>[**Enoque-UI**](https://github.com/enoquetembe/design-system)</span>
-- <span>[**TypeScript**](https://www.typescriptlang.org/)</span>
-- <span>[**NextAuth**](https://next-auth.js.org/) </span>
-- <span>[**Prisma**](https://www.prisma.io/) </span>
-- <span>[**MySQL**](https://www.mysql.com/) </span>
-
-
-## 💻 Project
-The Ignite Call project was built for booking appointments from a calendar with Google Calendar integration. The user can register on the app from their Google account and indicate the days of the week and times when they will be available to schedule appointments. Every appointment registered in the application is integrated with Google Calendar, which allows the user to check their new appointments directly on the Google platform.
-Ignite Call was built entirely on a Next.js project and used the mechanisms provided by the framework to create and integrate the front-end and back-end from a single code repository. Communication between the application and the database was done using the Prisma.io tool and using a MySQL database in a Docker container. The production database was published from the PlanetScale platform service and the Vercel service was used to host the application.
-<br> 
-
-## 🚀 Getting started
-
-### Prerequisites
-To get started you must have the following softwares installed:
-- <a href="https://nodejs.org/en/"> Node.js </a>
-- <a href="https://git-scm.com/downloads"> git </a>
-- <a href="https://www.docker.com/"> Docker </a>
-
-
-### Instalation 
-
-Open a terminal follow the steps bellow
-
-1. Clone the repository: 
-
-``` bash 
- $ git clone https://github.com/vybraan/DF2023_ATHSec.git
-```
-
-- Got to the project directory 
-``` bash 
-2. cd ignite-call
-```
-
-3. Install depedencies
-
-``` bash 
-npm install
-```
-4. Execute Docker Compose
-
-``` bash 
-docker compose up
-```
-
-5. create the .env file and fill in the environment variables that are in the .env.example <br>
-Example:
-
-``` bash 
-DATABASE_URL="mysql://root:root@localhost:3306/yourdatabasename"
-```
-
-``` bash
-# You can assign any value to this key
-
-NEXTAUTH_SECRET=hhhh
-```
-
-``` bash
-NEXTAUTH_URL=http://localhost:3000
-```
-
-``` bash
-GOOGLE_CLIENT_ID=your google client id
-```
-
-``` bash
-GOOGLE_CLIENT_SECRET=your google client secret key
-```
-
-<b>Note</b>: The values of the GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET keys you can get them on <a href="https://console.cloud.google.com/"> Google Console </a> <br>
-If you don't know how to get them, check out this <a href="https://youtu.be/pBVAyU4pZOU?si=mWdGXwTG-E9SirJl"> Youtube Tutorial </a>
-
-6. Execute Prisma Migrations 
-
-``` bash 
-npx prisma migrate Dev
-```
-
-
-7. And finally runing the project locally
-
-``` bash 
-npm run dev
-```
-<br>
- 
-  <br>
-  Let's work together. 😁
-<p/>
-
-<br>
+We dissected Ignite Call, demonstrating real-world applications of DevSecOps principles and tools to create a robust and secure development pipeline."
 
 
 ## 📄 Licence
@@ -122,7 +27,8 @@ This project is under MIT Licence  [CLICK HERE](https://github.com/enoquetembe/i
 
 <br>
 
-All credits to [Enoque Tembe](https://github.com/enoquetembe)
+All credits to [Enoque Tembe](https://github.com/enoquetembe) <br>
+Original project [ignite-call](https://github.com/enoquetembe/ignite-call)
 
 
 
